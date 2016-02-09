@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tvultimate" name="TvUltimate" version="2.0.1" provider-name="Team-Ultimate">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" /> 
+	<import addon="plugin.video.p2p-streams" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Estamos de regreso TvUltimate y completamente free!</summary>
+    <description lang="en">Disfruta de los mejores canales... completamente gratis!... Este addon y las listas incluidas son actualizadas constantemente por lo que siempre tendremos el mejor contenido. Disfrutalo!</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
